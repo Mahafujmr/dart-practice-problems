@@ -15,3 +15,20 @@ void main() {
   print('Student Scholarship is = $studentScholarship');
 }
 ````
+##### Problem 02
+The first item’s price is an int The second item’s price is a double Add them together and display the total price in a String like: "Total price is: …".
+````dart
+void main() {
+  int firstItemPrice = 100;
+  double secondItemPrice = 33.55;
+  double totalPrice = firstItemPrice+secondItemPrice;
+ print('First Price is = $firstItemPrice');
+ print('Second Price is = $secondItemPrice');
+
+  print('Total Price is : $totalPrice');
+  print("My first item price is $firstItemPrice, "
+      "and My Second Item price is \n $secondItemPrice");
+
+}
+````
+#### Problem 03
