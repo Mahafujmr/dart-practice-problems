@@ -12,5 +12,7 @@ void main() {
  print('Second Price is = $secondItemPrice');
 
   print('Total Price is : $totalPrice');
+  print("My first item price is $firstItemPrice, "
+      "and My Second Item price is \n $secondItemPrice");
 
 }
