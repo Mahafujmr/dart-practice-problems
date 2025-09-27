@@ -64,3 +64,8 @@ void main() {
 
 }
 ````
+#### Problem 05
+Store a user’s username (String), password (String), age (int), and a bool to check if the user is an adult (age >= 18 → true, otherwise false).
+````dart
+
+````
