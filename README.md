@@ -32,3 +32,17 @@ void main() {
 }
 ````
 #### Problem 03
+Create variables for a person’s name (String), age (int), and a bool that checks if the person is eligible to vote (age >= 18 → true, otherwise false).
+````dart
+void main() {
+  String personName = "Tamim";
+  int personAge = 22;
+  bool isEligibleVote = personAge >= 18;
+  print(isEligibleVote);
+
+  print('Name = $personName');
+  print('Age = $personAge');
+  print('Voter = $isEligibleVote');
+
+}
+````

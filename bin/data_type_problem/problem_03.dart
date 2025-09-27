@@ -8,7 +8,7 @@ check bool = ture or false
 void main() {
   String personName = "Tamim";
   int personAge = 22;
-  bool isEligibleVote = personAge > 18;
+  bool isEligibleVote = personAge >= 18;
   print(isEligibleVote);
 
   print('Name = $personName');
