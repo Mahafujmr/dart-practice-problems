@@ -67,5 +67,16 @@ void main() {
 #### Problem 05
 Store a user’s username (String), password (String), age (int), and a bool to check if the user is an adult (age >= 18 → true, otherwise false).
 ````dart
-
+void main() {
+  // User Information
+  String userName = "mrTuhin";
+  String facebookPassword = "@123mrt";
+  int userAge = 22;
+  bool userAdult = userAge >= 18;
+  // DisPlay Result
+  print('User Name is = $userName');
+  print('User Password is = $facebookPassword');
+  print("User Is Adult = $userAdult");
+  print("User Is Not Adult = ${!userAdult}");
+}
 ````
