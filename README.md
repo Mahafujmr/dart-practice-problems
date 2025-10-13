@@ -126,3 +126,26 @@ void main() {
   print('After End Loop');
 }
 ````
+##### dart for loop problem - Print only even numbers from 1 to 20.
+````dart
+// dart for loop problem - Print only even numbers from 1 to 20.
+void main() {
+  for(int a= 1; a<=20; a++){
+    // check even number
+    if(a %2==0){
+      print(a);
+    }
+  }
+}
+````
+##### dart for loop problem - Print only odd numbers from 1 to 20.
+````dart
+// dart for loop problem - Print only odd numbers from 1 to 20.
+void main() {
+  for(int number =1; number<=20; number++){
+    if(number% 2 ==1){
+      print(number);
+    }
+  }
+}
+````
