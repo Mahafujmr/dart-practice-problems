@@ -163,5 +163,19 @@ void main() {
 ````
 ##### Print numbers in reverse order from 10 to 1.
 ````dart
-
+// dart for loop problem - Print numbers in reverse order from 10 to 1.
+void main() {
+  for(int a=10; a>=1; a-- ){
+    print(' Reverse Loop = $a');
+  }
+}
+````
+##### Print your name 5 times.
+````dart
+// dart for loop problem - Print your name 5 times.
+void main() {
+  for(int name =1; name <=5; name++){
+    print('Md. Tuhin Hossain ');
+  }
+}
 ````
