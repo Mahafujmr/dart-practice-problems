@@ -3,6 +3,7 @@ void main() {
    int number = 0;
   for(int sum=1; sum<=10; sum ++){
     number=number+sum;
+    print('Sum= $sum,number=$number');
   }
   print('Total Number = $number');
 }

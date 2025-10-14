@@ -153,10 +153,15 @@ void main() {
 ````dart
 // dart for loop problem -Find the sum of numbers from 1 to 10
 void main() {
-   int number = 0;
+  int number = 0;
   for(int sum=1; sum<=10; sum ++){
     number=number+sum;
+    print('Sum= $sum,number=$number');
   }
   print('Total Number = $number');
 }
+````
+##### Print numbers in reverse order from 10 to 1.
+````dart
+
 ````
