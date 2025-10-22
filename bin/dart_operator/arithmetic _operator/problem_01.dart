@@ -10,4 +10,9 @@ void main() {
   int totalNumber = (m * (n +o));
   print('Total Number = $totalNumber');
 
+  // problem - print((20 - 5) / (2 + 3));
+  int number =20, number1 = 5,number2=2, number3= 3;
+  double totalPoint = ((number - number1) / (number2+ number3));
+ print('Total Point = $totalPoint');
+
 }
